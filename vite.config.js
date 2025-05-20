@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     port: 3000, // Cambia el número de puerto a 3000.
   },
-  bases: "https://<JoseEduardoTrevizo>.github.io/Portafolio",
+  base: "https://JoseEduardoTrevizo.github.io/Portafolio",
 });
