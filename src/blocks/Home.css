@@ -1,0 +1,60 @@
+.about__me {
+  display: flex;
+  height: 700px;
+}
+.my__selff {
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  margin-top: 75px;
+  flex-direction: row;
+  gap: 180px;
+  position: relative;
+}
+.my__selff_container {
+  display: flex;
+  max-height: 800px;
+  flex-direction: column;
+}
+.my__selff_title {
+  display: flex;
+  margin: 0;
+  margin-bottom: 15px;
+  justify-content: center;
+  color: #d9faf4;
+  font-family: "Supreme", sans-serif;
+  font-size: 35px;
+}
+.my__selff_text {
+  font-family: "Supreme", sans-serif;
+  font-size: 24px;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0;
+  color: #d9faf4;
+  text-align: justify;
+}
+.my__selff_text:last-child {
+  margin-top: 15px;
+}
+.avatar {
+  width: 217px;
+  height: 237px;
+}
+.quote {
+  display: flex;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 600px;
+  top: 400px;
+  right: 250px;
+  color: #d9faf4;
+  font-family: "Supreme", sans-serif;
+  text-align: justify;
+}
+.quote__header {
+  position: absolute;
+  bottom: -50px;
+  left: 475px;
+}

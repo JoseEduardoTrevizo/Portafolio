@@ -1,0 +1,106 @@
+.title_projects {
+  display: flex;
+  margin: 25px auto 35px;
+  width: 100px;
+  color: #d9faf4;
+  font-family: "Supreme", sans-serif;
+  font-size: 35px;
+}
+.projects_container {
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  height: 1050px;
+}
+.projects {
+  list-style: none;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.around {
+  display: flex;
+  width: 300px;
+  background-color: rgb(24, 172, 122);
+  border-radius: 10px;
+}
+.project_around {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.img_around {
+  width: 280px;
+  height: 250px;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+
+.description_around {
+  text-align: justify;
+  display: flex;
+  width: 280px;
+  margin: auto;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 15px;
+}
+.button_git {
+  width: 100px;
+  display: flex;
+  margin: 20px auto 0;
+  justify-content: center;
+  background-color: chocolate;
+  border: none;
+  border-radius: 10px;
+  color: black;
+}
+
+.project_coffe {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: auto;
+}
+.img_coffe {
+  width: 280px;
+  height: 250px;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+.description_coffe {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.coffe {
+  display: flex;
+  width: 300px;
+  background-color: rgb(24, 172, 122);
+  border-radius: 10px;
+}
+.library {
+  display: flex;
+  width: 300px;
+  background-color: rgb(24, 172, 122);
+  border-radius: 10px;
+}
+.project_library {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: auto;
+}
+.img_library {
+  width: 280px;
+  height: 250px;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+.description_library {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: -20;
+}

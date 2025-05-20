@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  padding-top: 25px;
+  flex-direction: column;
+}
+.about__container {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+}
+.container__aboutme {
+  margin: 80px 50px auto 150px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.about__title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #d9faf4;
+  font-family: "Supreme", sans-serif;
+  font-size: 35px;
+}
+.about__text {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: #d9faf4;
+  text-align: justify;
+}
+.about__image {
+  width: 500px;
+  height: 300px;
+  padding-top: 150px;
+}
+.skill__title {
+  display: flex;
+  margin: 75px auto 0px;
+  color: #d9faf4;
+  font-family: "Supreme", sans-serif;
+  font-size: 35px;
+}

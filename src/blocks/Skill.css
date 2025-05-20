@@ -1,0 +1,92 @@
+.container {
+  margin: auto;
+  padding-top: 75px;
+  height: 700px;
+  width: 1000px;
+}
+.skill_container {
+  margin: auto;
+  justify-content: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    ". img9 img10 . ";
+}
+.html {
+  grid-area: img1;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(42%) sepia(48%) saturate(5324%) hue-rotate(350deg)
+    brightness(95%) contrast(87%);
+}
+.css {
+  grid-area: img2;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(32%) sepia(70%) saturate(1022%) hue-rotate(173deg)
+    brightness(98%) contrast(96%);
+}
+.javaScript {
+  grid-area: img3;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(94%) sepia(41%) saturate(5884%) hue-rotate(339deg)
+    brightness(101%) contrast(94%);
+}
+.react {
+  grid-area: img4;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(75%) sepia(13%) saturate(1901%) hue-rotate(160deg)
+    brightness(103%) contrast(97%);
+}
+.vite {
+  grid-area: img5;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+}
+.git {
+  grid-area: img6;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(73%) sepia(94%) saturate(6258%) hue-rotate(344deg)
+    brightness(98%) contrast(91%);
+}
+.gitHub {
+  grid-area: img7;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+}
+.postman {
+  grid-area: img8;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(46%) sepia(64%) saturate(747%) hue-rotate(331deg)
+    brightness(103%) contrast(101%);
+}
+.spring {
+  grid-area: img9;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  filter: invert(62%) sepia(57%) saturate(472%) hue-rotate(53deg)
+    brightness(90%) contrast(88%);
+}
+.java {
+  grid-area: img10;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+}

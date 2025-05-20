@@ -1,0 +1,36 @@
+.footer {
+  background: linear-gradient(180deg, #041f18 0%, #08372b 100%);
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+.footer__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.footer__social-media {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-between;
+}
+.footer__linked {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+.footer__instagram {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+.footer__git {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  cursor: pointer;
+}

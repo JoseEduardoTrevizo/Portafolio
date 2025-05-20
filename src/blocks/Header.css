@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: linear-gradient(180deg, #08372b 0%, #041f18 100%);
+}
+.container_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 45px;
+}
+.header_logo {
+  width: 250px;
+  max-height: 40px;
+}
+.container__nav {
+  display: flex;
+}
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  gap: 15px;
+  list-style: none;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Home {
+  color: #6249e6;
+}
+.Home:hover {
+  color: #0000cd;
+  cursor: pointer;
+}
+.About {
+  color: #6249e6;
+}
+.About:hover {
+  color: #0000cd;
+  cursor: pointer;
+}
+.Projects {
+  color: #6249e6;
+}
+.Projects:hover {
+  color: #0000cd;
+  cursor: pointer;
+}
+.Resume {
+  color: #6249e6;
+}
+.Resume:hover {
+  color: #0000cd;
+  cursor: pointer;
+}
