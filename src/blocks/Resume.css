@@ -1,0 +1,28 @@
+.container_resume {
+  display: flex;
+  margin: 0;
+  width: 100vw;
+  height: 200vh;
+  flex-direction: column;
+}
+.button_cv {
+  display: flex;
+  width: 150px;
+  height: 35px;
+  margin: 40px auto 0px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 172, 122);
+  color: black;
+}
+.resume {
+  flex-direction: column;
+  padding-top: 25px;
+  margin: 0 auto 0;
+}
+.preview {
+  width: 800px;
+  height: 160vh;
+  margin: 0;
+}

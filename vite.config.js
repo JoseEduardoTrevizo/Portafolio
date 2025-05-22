@@ -8,4 +8,12 @@ export default defineConfig({
     port: 3000, // Cambia el número de puerto a 3000.
   },
   base: "https://JoseEduardoTrevizo.github.io/Portafolio",
+  optimizeDeps: {
+    include: ["pdfjs-dist"],
+  },
+  build: {
+    commonjsOptions: {
+      include: [/pdfjs-dist/, /node_modules/],
+    },
+  },
 });
